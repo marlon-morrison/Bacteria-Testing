@@ -1,10 +1,15 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: YoungSerif;
+   src: url('YoungSerif-Regular.ttf') format('truetype');
+}
 body {
     background-image: url(../media/pexels-pixabay-45239.jpg);
     color: #000;
  }
 header h1 {
     font-family: YoungSerif;
-    src: url('YoungSerif-Regular.ttf') format('truetype');
     text-transform: capitalize;
     font-size: 70px;
     text-decoration: overline;
